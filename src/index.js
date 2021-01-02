@@ -1,6 +1,9 @@
 import React from 'react'
-import styles from './styles.module.css'
 
-export const ExampleComponent = ({ text }) => {
-  return <div className={styles.test}>Example Component: {text}</div>
+export const DuplicateComponent = ({ text }) => {
+  return <div>Duplicate Component: {text}</div>
 }
+
+export { default as Dropdown } from './Dropdown.js'
+export { default as Button3D } from './Button3D.js'
+export { default as FlipCard } from './FlipCard.js'

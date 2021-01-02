@@ -13,16 +13,44 @@ npm install --save personalsiteassets
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React, { useState } from 'react'
+import { FlipCard, Dropdown, Button3D } from '@tristan2000/personalsite-assets'
+import './App.css'
 
-import MyComponent from 'personalsiteassets'
-import 'personalsiteassets/dist/index.css'
+function App() {
+  const [open, setOpen] = useState(true)
+  const [value, setValue] = useState('')
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
+  const handleSelect = (selected) => {
+    alert(selected)
   }
+
+  const handleClose = () => {
+    setOpen(false)
+  }
+
+  return (
+    <div className='App'>
+      <Dropdown
+        items={['1', '2', '3']}
+        open={open}
+        orgin={'top'} // or "bottom"
+        onSelect={handleSelect}
+        onClose={handleClose}
+      ></Dropdown>
+
+      <Button3D logo='logo192.png'></Button3D>
+
+      <FlipCard
+        title='title'
+        description='description'
+        image='logo192.png'
+      ></FlipCard>
+    </div>
+  )
 }
+
+export default App
 ```
 
 ## License
