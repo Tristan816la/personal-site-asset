@@ -4,10 +4,24 @@
 
 [![NPM](https://img.shields.io/npm/v/personalsiteassets.svg)](https://www.npmjs.com/package/personalsiteassets) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
+## Demos
+
+### 1. Button3D
+
+<img src="./demos/Button3D.gif" alt="Button3D" width="200px"/>
+
+### 2. Dropdown
+
+<img src="./demos/Dropdown.gif" alt="dd" width="300px" />
+
+### 3. FlipCard
+
+   <img src="./demos/FlipCard.gif" alt="FC" width="300px"/>
+
 ## Install
 
 ```bash
-npm install --save personalsiteassets
+npm i @tristan2000/personalsite-assets
 ```
 
 ## Usage
