@@ -1,4 +1,4 @@
-# personalsiteassets
+# Personal Site Assets
 
 > Assets of my personal website
 
@@ -39,7 +39,7 @@ function App() {
         onClose={handleClose}
       ></Dropdown>
 
-      <Button3D logo='logo192.png'></Button3D>
+      <Button3D logo='logo192.png' text='some text'></Button3D>
 
       <FlipCard
         title='title'
