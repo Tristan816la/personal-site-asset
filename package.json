@@ -1,13 +1,14 @@
 {
   "name": "@tristan2000/personalsite-assets",
-  "version": "2.2.0",
+  "version": "2.2.3",
   "description": "Assets of my personal website",
   "author": "Tristan816la",
   "license": "MIT",
-  "repository": "Tristan816la/personalsiteassets",
+  "repository": "Tristan816la/personal-site-assets",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
+  "homepage": "https://github.com/Tristan816la/personal-site-asset#readme",
   "engines": {
     "node": ">=10"
   },
